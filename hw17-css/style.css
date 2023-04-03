@@ -1,3 +1,66 @@
-body{
-    background-color: red;
+
+@font-face {
+    font-family: ;
+    src: url(https://use.typekit.net/ean6mal.css);
+} 
+
+
+
+header{
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #C82121;
+    color: white;
+}
+li{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+.flex{
+    width: 23%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    margin-left: auto
+}
+.logo{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    vertical-align: top;
+    background-color: #C82121;
+    color: white;
+    font-family: 
+    
+}
+p{
+    vertical-align: center
+    ;
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: .7;
+
+}
+.fa-linkedin{
+    background-color: #007bb5;
+    color: white;
 }
