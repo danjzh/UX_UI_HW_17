@@ -1,31 +1,54 @@
 
-@font-face {
-    font-family: ;
-    src: url(https://use.typekit.net/ean6mal.css);
-} 
 
 
+/*Text----------------------------------*/
 
-header{
-
+h1{
+    font-family: itc-benguiat, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 320px;
+    height: 211px;
+    color: #C82121;
 }
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    background-color: #C82121;
-    color: white;
-}
-li{
-    display: inline-block;
-    vertical-align: top;
-    width: 23%;
+h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 283px;
+    color: #213130
+    ;
 }
 .flex{
     width: 23%;
     padding: 1%;
     justify-content: center;
     align-items: center;
+    
 }
+
+.bg{
+    background: url("fog-tree1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*header----------------------------------*/
+
+li{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 nav{
     width: 73%;
     padding: 1%;
@@ -36,19 +59,54 @@ ul{
 }
 .logo{
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    background-color:#C82121;
+    color: white;
 }
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+/*hero----------------------------------*/
+
+.hero-img{
+    height: 600px;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*footer----------------------------------*/
 
 footer{
     display: flex;
     vertical-align: top;
     background-color: #C82121;
     color: white;
-    font-family: 
+     
     
 }
 p{
-    vertical-align: center
-    ;
+    vertical-align: center;
+    font-family: itc-benguiat, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.email{
+    display: flex;
+    vertical-align: middle;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
 }
 .fa{
     padding: 10px;
@@ -64,3 +122,13 @@ p{
     background-color: #007bb5;
     color: white;
 }
+.copyright{
+    display: flex;
+    justify-content: center; 
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
