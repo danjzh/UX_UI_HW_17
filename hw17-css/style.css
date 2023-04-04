@@ -31,7 +31,7 @@ h2{
 }
 
 .bg{
-    background: url("fog-tree1.jpg");
+    background: url(/hw17-images/fog-tree1.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,9 @@ h2{
 
 li{
     display: inline-block;
+    justify-content: space-between;
     vertical-align: top;
+
     width: 23%;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
@@ -89,6 +91,8 @@ footer{
     vertical-align: top;
     background-color: #C82121;
     color: white;
+
+
      
     
 }
