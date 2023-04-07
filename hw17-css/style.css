@@ -76,6 +76,7 @@ nav{
     display: flex;
     width: 73%;
     padding: 1%;
+    color: #213130;
 }
 
 .nav-links{
@@ -134,10 +135,14 @@ h2{
 
 footer{
     display: flex;
+    justify-content: center;
     vertical-align: top;
     background-color: #C82121;
     color: white;
     min-height: 50px;
+    position: absolute;
+    bottom: 0;
+
 
 
 
